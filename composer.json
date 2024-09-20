@@ -1,0 +1,19 @@
+{
+	"name": "swann/framework",
+	"autoload": {
+		"psr-4": {
+			"PixelFix\\Framework\\": "src/",
+			"App\\": "app/"
+		}
+	},
+	"authors": [
+		{
+			"name": "PixelFix"
+		}
+	],
+	"require": {
+		"symfony/var-dumper": "^7.1",
+		"nikic/fast-route": "^1.3",
+		"twig/twig": "^3.14"
+	}
+}
